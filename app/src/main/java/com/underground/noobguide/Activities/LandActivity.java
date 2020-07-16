@@ -1,4 +1,4 @@
-package com.underground.noobguide;
+package com.underground.noobguide.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,6 +14,8 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
+import com.underground.noobguide.Activities.MainActivity;
+import com.underground.noobguide.R;
 
 import androidx.drawerlayout.widget.DrawerLayout;
 
