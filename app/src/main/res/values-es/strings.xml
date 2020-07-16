@@ -2,4 +2,14 @@
 <resources>
     <string name="app_name">Noob Guide</string>
     <string name="action_settings">Configuraciones</string>
+    <string name="destination_from">De dónde eres?</string>
+    <string name="destinnation_to">A dónde quieres ir?</string>
+    <string name="menu_gallery">Pasaportes</string>
+    <string name="menu_home">Compra vuelos</string>
+    <string name="menu_send">Visas</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_slideshow">Consejos médicos</string>
+    <string name="menu_tools">Seguridad</string>
+    <string name="nav_header_desc">lmao</string>
+    <string name="title_activity_land">Guía</string>
 </resources>

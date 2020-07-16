@@ -1,5 +1,6 @@
 package com.underground.noobguide;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -78,6 +79,11 @@ public class LandActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+
+            Intent intent= new Intent();
+            intent.setClass(this, MainActivity.class);
+            this.startActivity(intent);
+
             return true;
         }
 

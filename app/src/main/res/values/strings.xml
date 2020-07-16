@@ -1,17 +1,19 @@
 <resources>
     <string name="app_name">Noob Guide</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_land">LandActivity</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="title_activity_land">Guide</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Bash</string>
+    <string name="nav_header_subtitle" translatable="false">amantedelacomida53@aol.com</string>
     <string name="nav_header_desc">Navigation header</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
+    <string name="menu_home">Buy flights</string>
+    <string name="menu_gallery">Passports</string>
+    <string name="menu_slideshow">Medical Advice</string>
+    <string name="menu_tools">Security</string>
     <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="menu_send">Visas</string>
+    <string name="destination_from">Where are you from?</string>
+    <string name="destinnation_to">Where do you want to go?</string>
 </resources>
