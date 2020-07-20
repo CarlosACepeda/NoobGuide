@@ -8,12 +8,22 @@ public class ConfigurationManager {
     private SharedPreferences.Editor userSharedPreferencesEditor;
     private String defaultStringValue= "NO_VALUE";
     private int defaultIntValue= -1;
+    private static ConfigurationManager instance;
 
+    private ConfigurationManager(SharedPreferences sharedPreferences){
+        if (userSharedPreferences== sharedPreferences) return;
+        else{
+        userSharedPreferences= sharedPreferences;
+        userSharedPreferencesEditor = userSharedPreferences.edit();}
+
+    }
     public ConfigurationManager GetInstance (SharedPreferences sharedPreferences)
     {
-        userSharedPreferences= sharedPreferences;
-        userSharedPreferencesEditor = userSharedPreferences.edit();
-        return this;
+        if(instance== null)
+        {
+            instance= new ConfigurationManager(sharedPreferences);
+        }
+        return instance;
     }
 
     public boolean RetrieveAValue(String which)
